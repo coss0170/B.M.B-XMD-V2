@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "BMB-XMD~bRwmEZib#Q7JZTa8CkH7nGtpreYzmWPW6GpXewJpty01x2qthx0Y", 
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/ewjggk.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ".menu",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "B.M.B-XMD-V2",
 // add bot namw here for menu
@@ -37,11 +37,11 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255767862457",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "255773229438",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ʙ.ᴍ.ʙ-xᴍᴅ-ᴠ2",
+OWNER_NAME: process.env.OWNER_NAME || "de consultant",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© powered by ʙ.ᴍ.ʙ-xᴍᴅ-ᴠ2*",
+DESCRIPTION: process.env.DESCRIPTION || "*© powered by de consultant*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ewjggk.jpg",
 // add img for alive msg
